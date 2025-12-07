@@ -9,8 +9,15 @@
     "build": "tsc",
     "start": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "me",
+  "keywords": [
+    "hono",
+    "typescript",
+    "node",
+    "backend",
+    "server",
+    "api"
+  ],
+  "author": "bikash1376",
   "license": "ISC",
   "devDependencies": {
     "@hono/node-server": "^1.19.6",
