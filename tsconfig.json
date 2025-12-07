@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",              // tells TS to use Node.js ESM/CJS resolution
+    "moduleResolution": "NodeNext",    // required with module: NodeNext
+    "outDir": "dist",                  // compiled JS output folder
+    "rootDir": "src",                  // source folder
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["src"],                  // compile only your source files
+  "exclude": ["node_modules", "dist"]  // ignore build + deps
+}
