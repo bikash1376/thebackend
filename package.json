@@ -21,12 +21,20 @@
   "license": "ISC",
   "devDependencies": {
     "@hono/node-server": "^1.19.6",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@prisma/client": "^7.1.0",
     "@types/node": "^24.10.1",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
     "hono": "^4.10.7",
-    "ts-node": "^10.9.2"
+    "jsonwebtoken": "^9.0.3",
+    "prisma": "^7.1.0",
+    "ts-node": "^10.9.2",
+    "zod": "^4.1.13"
   }
 }
