@@ -4,35 +4,30 @@
 - Node.js
 - Hono
 - TypeScript
-- Prisma/Drizzle
+- Prisma
 - PostgreSQL
-- Docker
-- Redis
 - JWT
 - bcrypt
 - Zod
-- Winston --
-- Jest --
-
 
 ### Features
-- CRUD --
-- Authentication --
-- Authorization --
-- Data Validation --
-- Error Handling --
-- Streaming --
-- File Uploads/Downloads --
-- Pagination --
-- Search/Filter --
-- Logging --
-- Testing --
-- SSE, WebSockets, WebRTC --
-- Caching --
-- Rate Limiting --
-- Documentation --
-- Deployment --
-- Monitoring --
-- CI/CD --
-- Branches --
-- Version Control --
+- [x] CRUD
+- [x] Authentication
+- [x] Authorization
+- [x] Data Validation
+- [x] Error Handling
+- [ ] Streaming
+- [ ] File Uploads/Downloads
+- [ ] Pagination
+- [ ] Search/Filter
+- [ ] Logging
+- [ ] Testing
+- [ ] SSE, WebSockets, WebRTC
+- [ ] Caching
+- [ ] Rate Limiting
+- [ ] Documentation
+- [ ] Deployment
+- [ ] Monitoring
+- [ ] CI/CD
+- [ ] Branches
+- [ ] Version Control
