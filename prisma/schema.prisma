@@ -7,7 +7,7 @@ datasource db {
   provider = "postgresql"
 }
 
-model User {
+  model User {
   id        String   @id @default(uuid())
   email     String   @unique
   name      String?
@@ -15,6 +15,13 @@ model User {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   posts     Post[]
+  role      Role   @default(USER)
+  image     String?
+}
+
+enum Role {
+  ADMIN
+  USER
 }
 
 model Post {
